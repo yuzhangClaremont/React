@@ -11,3 +11,9 @@ install vs live server
 
 Babel open source
 https://babeljs.io/
+
+
+Lynda.com
+https://www.lynda.com/React-js-tutorials/Using-exercise-files/496905/759273-4.html?srchtrk=index%3a5%0alinktypeid%3a2%0aq%3areact%0apage%3a1%0as%3arelevance%0asa%3atrue%0aproducttypeid%3a2
+
+npm install (terminal)
