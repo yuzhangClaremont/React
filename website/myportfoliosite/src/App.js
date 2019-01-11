@@ -13,11 +13,11 @@ class App extends Component {
     return (
     <div style={{height: '800px', position: 'relative'}}>
     <Layout  >
-        <Header title="Yun Zhang" className="header-color">
+        <Header title="" className="header-color">
         <Navigation>
                     <a href="/">Home</a>
-                    <a href="https://www.linkedin.com/in/yun-zhang-claremont/">Linkedin</a>
-                    <a href="https://github.com/yuzhangClaremont">Github</a>
+                    {/* <a href="https://www.linkedin.com/in/yun-zhang-claremont/">Linkedin</a> */}
+                    {/* <a href="https://github.com/yuzhangClaremont">Github</a> */}
                     <a href="/resume">Resume</a>
                     <a href="/projects">Projects</a>
                 </Navigation>
@@ -35,10 +35,10 @@ class App extends Component {
         <Content />
 
         <Footer size="mini">
-            <FooterSection type="left" logo="Title">
+            <FooterSection type="left" logo="By Yun Zhang">
                 <FooterLinkList>
-                    <a href="#">Help</a>
-                    <a href="#">Privacy & Terms</a>
+                    {/* <a href="#">Help</a> */}
+                    {/* <a href="#">Privacy & Terms</a> */}
                 </FooterLinkList>
             </FooterSection>
         </Footer>

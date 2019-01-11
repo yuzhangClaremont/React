@@ -9,10 +9,68 @@
 background: #659999;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+text-align: center; /* image center*/
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
 .avatar-img {
   height: 250px;
-  padding-top: 5em;
+  padding-top: 3em;
+  /* width: 50%; */
+
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+ 
+}
+.banner-text h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  /* text-align: center; duplicate with landing grid */
+}
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+Footer {
+  background: #659999;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f4791f, #659999); 
 }
