@@ -5,6 +5,7 @@ import './App.css';
 import Main from './components/main';
 
 import { Layout, Header, Navigation, Drawer, Content, Footer, FooterLinkList, FooterSection } from 'react-mdl';
+import resume from './components/resume.pdf';
 
 // import { Link } from 'react-router-dom'; 
 
@@ -18,17 +19,19 @@ class App extends Component {
                     <a href="/">Home</a>
                     {/* <a href="https://www.linkedin.com/in/yun-zhang-claremont/">Linkedin</a> */}
                     {/* <a href="https://github.com/yuzhangClaremont">Github</a> */}
-                    <a href="/resume">Resume</a>
-                    <a href="/projects">Projects</a>
-                </Navigation>
+                    {/* <a href="/resume">Resume</a> */}
+                    <a href={resume}>Resume</a>
+                    {/* <a href="/projects">Projects</a> */}
+        </Navigation>
           </Header>
             <Drawer title="Yun Zhang">
                 <Navigation>
                     <a href="/">Home</a>
                     <a href="https://www.linkedin.com/in/yun-zhang-claremont/">Linkedin</a>
                     <a href="https://github.com/yuzhangClaremont">Github</a>
-                    <a href="/resume">Resume</a>
-                    <a href="/projects">Projects</a>
+                    <a href={resume}>Resume</a>
+                    {/* <a href="/resume">Resume</a> */}
+                    {/* <a href="/projects">Projects</a> */}
                 </Navigation>
             </Drawer>
             <Main/>

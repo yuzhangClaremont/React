@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import headshot from './images/skull.jpeg';
-import bigsur from './images/bigsur.jpeg';
+// import bigsur from './images/bigsur.jpeg';
+
 
 
 class Landing extends Component {
@@ -24,7 +25,7 @@ class Landing extends Component {
 
             <hr/>
 
-          <p>HTML/CSS | JavaScript | React | Python | Java | C++ | NodeJS | Express | MongoDB</p>
+          <p>HTML/CSS | JavaScript | React | Python | Java | C++ | NodeJS | Flask | MongoDB</p>
 
         <div className="social-links">
 
