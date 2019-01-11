@@ -1,6 +1,9 @@
 # React
 react project
 
+
+react notes can be found at: https://docs.google.com/document/d/1fpTNnXUPDZEZJKReEYW-fBZQw557waljXZ7XNFNqlxo/edit?usp=sharing
+
 source:
 https://reactjs.org/docs/cdn-links.html
 
